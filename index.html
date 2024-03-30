@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
+    <link href="../css/output.css" rel="stylesheet">
     <title>Number Converter</title>
 </head>
 
@@ -15,9 +15,8 @@
         m-8 p-6 rounded-lg *:outline-none shadow-lg 
         shadow-violet-700 *:shadow-md *:py-2 *:px-4">
 
-        <p id="output" class="bg-white rounded-none text-gray-500 font-bold">Output</p>
-
-        <input type="text" placeholder="input" id="input" class="rounded-full"> <!--input-->
+        <textarea type="text" placeholder="input" id="input" class="rounded-md w-full"></textarea>
+        <!--input-->
 
         <button id="NumberToWord" class="bg-blue-500 font-bold text-white rounded-full">Number To Word</button>
 
@@ -27,7 +26,7 @@
 
     </div>
 
-    <script src="./script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

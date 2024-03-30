@@ -1,6 +1,5 @@
 //---------------------dom element--------------------
 
-let output = document.getElementById("output");
 let input = document.getElementById("input");
 let numberToWord = document.getElementById("NumberToWord");
 let wordToNumber = document.getElementById("WordToNumber");
@@ -87,7 +86,7 @@ function numberToWordConverter() {
         // Example usage
         let number = input.value;
         let words = convertNumberToWords(number);
-        output.innerText = words;
+        input.value = words;
 
 
     }
@@ -147,7 +146,7 @@ function wordToNumberConverter() {
     // Example usage
     let words = input.value;
     let number = convertWordsToNumber(words);
-    output.innerText = number;
+    input.value = number;
 
 }
 
